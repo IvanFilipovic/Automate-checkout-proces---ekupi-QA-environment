@@ -18,7 +18,7 @@ def main():
 
     for i in range(nar):
         options = webdriver.ChromeOptions()
-        driver = webdriver.Chrome('C:/webdriver/chromedriver_win32/chromedriver.exe', options=options)
+        driver = webdriver.Chrome('C:/webdriver/chromedriver_win32/chromedriver.exe', options=options) #Navigate to your webdriver location
         driver.maximize_window()
         driver.get('https://www.ekupi.hr/hr/login')
         time.sleep(2)
