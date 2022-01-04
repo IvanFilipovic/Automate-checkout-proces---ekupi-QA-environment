@@ -1,7 +1,7 @@
 from distutils.core import setup
 import py2exe
 
-# Change the path in the following line for webdriver.xpi
+# Change the path in the following line for webdriver
 data_files = [('selenium/webdriver/crome', ['C:/Users/ivan.filipovic1/PycharmProjects/pythonProject/venv/Lib/site-packages/selenium/webdriver/chrome/webdriver.py'])]
 
 setup(
